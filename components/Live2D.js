@@ -25,6 +25,7 @@ export default function Live2D() {
         if (typeof window?.loadlive2d !== 'undefined') {
           // https://github.com/xiazeyu/live2d-widget-models
           try {
+            console.log('petLink',petLink)
             loadlive2d('live2d', petLink)
           } catch (error) {
             console.error('读取PET模型', error)
