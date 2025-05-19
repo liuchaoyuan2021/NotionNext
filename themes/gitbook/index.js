@@ -364,7 +364,7 @@ const LayoutSlug = props => {
               </div>
 
               {/* 分享 */}
-              <ShareBar post={post} />
+              {/*<ShareBar post={post} />*/}
               {/* 文章分类和标签信息 */}
               <div className='flex justify-between'>
                 {siteConfig('POST_DETAIL_CATEGORY') && post?.category && (
